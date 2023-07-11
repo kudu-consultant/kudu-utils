@@ -1,6 +1,6 @@
 {
   "name": "kudu-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Just a demo",
   "author": {
     "name": "Kudu Consultant LLC",
@@ -31,12 +31,12 @@
   },
   "exports": "./src/index.ts",
   "typesVersions": {
-		">4.0": {
-			"*": [
-				"./src/index.ts"
-			]
-		}
-	},
+    ">4.0": {
+      "*": [
+        "./src/index.ts"
+      ]
+    }
+  },
   "devDependencies": {
     "typescript": "5.1.3"
   }
