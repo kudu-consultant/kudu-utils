@@ -1,0 +1,36 @@
+{
+  "name": "kudu-utils",
+  "version": "0.0.1",
+  "description": "Just a demo",
+  "author": {
+    "name": "Kudu Consultant LLC",
+    "email": "services@kudu.design",
+    "url": "https://kudu.design"
+  },
+  "license": "GNU GPL",
+  "type": "module",
+  "keywords": [
+    "kudu",
+    "utils",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kudu-consultant/kudu-utils"
+  },
+  "homepage": "https://github.com/kudu-consultant/kudu-utils",
+  "bugs": "https://github.com/kudu-consultant/kudu-utils/issues",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": "./src/index.ts",
+  "devDependencies": {
+    "typescript": "5.1.3"
+  }
+}
