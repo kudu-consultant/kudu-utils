@@ -8,7 +8,7 @@
     "url": "https://kudu.design"
   },
   "license": "GNU GPL",
-  "type": "module",
+  "type": "commonjs",
   "keywords": [
     "kudu",
     "utils",

@@ -8,6 +8,7 @@
     "allowJs": true,
     // Generate d.ts files
     "declaration": true,
+    "module": "CommonJS",
     // Types should go into this directory.
     // Removing this would place the .d.ts files
     // next to the .js files
