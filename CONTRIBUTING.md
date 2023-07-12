@@ -37,11 +37,13 @@ pnpm i kudu-utils
 
 | File(s)         | Description                                            |
 | --------------- | ------------------------------------------------------ |
+| `package.json`  | Configuration file for the project                     |
 | `tsconfig.json` | Config file for TypeScript                             |
 | `renovate.json` | Config file for renovate bot (Github app)              |
 | `.gitignore`    | Config file for git ignore                             |
 | `.github`       | Folder for GitHub-specific files and workflows (CI/CD) |
 | `src`           | All sources files, the core of the project             |
+| `dist`          | Folder containing the built and compiled output        |
 
 ## How can I contribute?
 
