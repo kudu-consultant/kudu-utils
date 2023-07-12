@@ -1,6 +1,6 @@
 {
   "name": "kudu-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Just a demo",
   "author": {
     "name": "Kudu Consultant LLC",
@@ -29,9 +29,15 @@
   "publishConfig": {
     "access": "public"
   },
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./validators": "./dist/validators/index.js"
+  },
   "typesVersions": {
     ">4.0": {
+      "validators": [
+        "./dist/validators/index.d.ts"
+      ],
       "*": [
         "./dist/index.d.ts"
       ]
