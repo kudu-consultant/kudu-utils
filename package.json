@@ -1,6 +1,6 @@
 {
   "name": "kudu-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Just a demo",
   "author": {
     "name": "Kudu Consultant LLC",
@@ -24,18 +24,21 @@
     "LICENSE",
     "README.md",
     "package.json",
-    "src"
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "exports": "./src/index.ts",
+  "exports": "./dist/index.js",
   "typesVersions": {
     ">4.0": {
       "*": [
-        "./src/index.ts"
+        "./dist/index.d.ts"
       ]
     }
+  },
+  "scripts": {
+    "compile": "tsc"
   },
   "devDependencies": {
     "typescript": "5.1.3"
